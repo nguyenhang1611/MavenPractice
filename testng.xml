@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Traning selenium webdriver">
+  <parameter name="browserType" value="chrome" />
+  <parameter name="baseURL" value="http://live.guru99.com/" />
+  <test name="Guru">
+    <classes>
+      <class name="scripts.LoginLogoutScripts">
+      </class>
+    </classes>
+  </test>
+</suite>
